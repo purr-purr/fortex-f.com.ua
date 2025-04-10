@@ -9,6 +9,7 @@ module.exports = {
 	images: {
 		unoptimized: true,
 	},
+	trailingSlash: true,
 	webpack: (config) => {
 		config.module.rules.push({
 			test: /\.pdf$|\.doc$|\.docx$|\.xls$/,
@@ -22,7 +23,7 @@ module.exports = {
 				},
 			],
 		});
-
+		
 		return config;
 	},
 };
