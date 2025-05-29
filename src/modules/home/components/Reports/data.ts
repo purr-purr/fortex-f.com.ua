@@ -3,6 +3,21 @@ import {IDocumentsListGroup, type IDocumentsList} from '@utils/types';
 
 export const financeReports: IDocumentsListGroup[] = [
 	{
+		groupTitle: '2024',
+		list: [
+			{
+				title:
+					'Звіт незалежного аудитора щодо річної звітності ТОВ ФОРТЕКС-ФІНАНС за рік, що закінчився 31.12.2024',
+				link: importDoc('Звіт незалежного аудитора щодо річної звітності ТОВ' +
+					' ФОРТЕКС-ФІНАНС за рік, що закінчився 31.12.2024.pdf'),
+			},
+			{
+				title: 'Звіт з надання впевненості',
+				link: importDoc('Звіт з надання впевненості.pdf'),
+			},
+		],
+	},
+	{
 		groupTitle: '2023',
 		list: [
 			{
@@ -158,6 +173,26 @@ export const archivedInformation: IDocumentsList[] = [
 ];
 
 export const documents: IDocumentsList[] = [
+	{
+		title: 'Примітки Фортекс Фінанс 2024',
+		link: importDoc('примітки Фортекс Фінанс 2024.pdf'),
+	},
+	{
+		title: 'Звіт про власний капітал',
+		link: importDoc('Звіт_про_власний_капітал.pdf'),
+	},
+	{
+		title: 'Звiт про рух грошових коштiв',
+		link: importDoc('Звiт_про_рух_грошових_коштiв.pdf'),
+	},
+	{
+		title: 'Звіт про фінансові результати',
+		link: importDoc('Звіт_про_фінансові_результати.pdf'),
+	},
+	{
+		title: 'Баланс',
+		link: importDoc('Баланс.pdf'),
+	},
 	{
 		title: 'Свідоцтво про реєстрацію фінансової установи',
 		link: importDoc('Свідоцтво 13 04 2021.pdf'),
