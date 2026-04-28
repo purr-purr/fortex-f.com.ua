@@ -6,6 +6,10 @@ export const financeReports: IDocumentsListGroup[] = [
 		groupTitle: '2025',
 		list: [
 			{
+				title: 'Таксономія Фортекс-Фінанс за 2025 рік.',
+				link: importDoc('таксономія фортек фінанс.html'),
+			},
+			{
 				title: 'Фортекс Фінанс Примітки за 2025',
 				link: importDoc('Примітки ФФ за 2025 рік.pdf'),
 			},
@@ -247,6 +251,27 @@ export const financeReports: IDocumentsListGroup[] = [
 
 export const structureInfo: IDocumentsList[] = [
 	{
+		title: 'Структура власності ТОВ «ФОРТЕКС-ФІНАНС» станом на 01.01.2026',
+		link: importDoc('1_Struktura vlasnosti na 01.01.2026.pdf'),
+	},
+	{
+		title:
+			'Відомості про остаточних ключових учасників ТОВ «ФОРТЕКС-ФІНАНС» станом на 01.01.2026',
+		link: importDoc(
+			'2_Vidomosti pro ostatochn.kliuch. uchasnykiv na 01.01.2026.pdf',
+		),
+	},
+	{
+		title:
+			'Відомості про власників істотної участі ТОВ «ФОРТЕКС-ФІНАНС» станом на 01.01.2026',
+		link: importDoc(
+			'3_Vidomosti pro vlasnykiv istotn. uchasti na 01.01.2026.pdf',
+		),
+	},
+];
+
+export const archivedInformation: IDocumentsList[] = [
+	{
 		title: 'Структура власності ТОВ «ФОРТЕКС-ФІНАНС» станом на 17.03.2025',
 		link: importDoc('1_Struktura vlasnosti na 17.03.2025.pdf'),
 	},
@@ -264,9 +289,7 @@ export const structureInfo: IDocumentsList[] = [
 			'3_Vidomosti pro vlasnykiv istotn. uchasti na 17.03.2025.pdf',
 		),
 	},
-];
 
-export const archivedInformation: IDocumentsList[] = [
 	{
 		title: 'Правила надання коштів в позику (редакція до 17.03.2025)',
 		link: importDoc('3_Pravila kredit 06 2024.pdf'),
