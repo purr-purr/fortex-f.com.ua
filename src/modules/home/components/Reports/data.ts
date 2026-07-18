@@ -3,6 +3,36 @@ import { IDocumentsListGroup, type IDocumentsList } from '@utils/types';
 
 export const financeReports: IDocumentsListGroup[] = [
 	{
+		groupTitle: '2026',
+		list: [
+			{
+				title: 'Примітки Фортекс-Фінанс',
+				link: importDoc('примітки_Фортекс_Фінанс_1_півріччя_2026_року.pdf'),
+			},
+			{
+				title: 'Ф4. Звіт про власний капітал',
+				link: importDoc('S0104010 Ф4. Звіт про власний капітал (4).pdf'),
+			},
+			{
+				title:
+					'Ф3. Звiт про рух грошових коштiв (за прямим методом)',
+				link: importDoc(
+					'S0100311 Ф3. Звiт про рух грошових коштiв (за прямим методом) (3).pdf',
+				),
+			},
+			{
+				title: 'Ф2. Звіт про фінансові результати (в тисячах)',
+				link: importDoc(
+					'S0100215 Ф2. Звіт про фінансові результати (в тисячах) (4).pdf',
+				),
+			},
+			{
+				title: 'Ф1. Баланс',
+				link: importDoc('S0100115 Ф11. Баланс.pdf'),
+			},
+		],
+	},
+	{
 		groupTitle: '2025',
 		list: [
 			{
